@@ -1,15 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html {
+    min-height: 100%;
+    overflow-y: scroll;
+}
+
+* {
+    border: 1px solid red;
+}
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 .header {
     display:flex;
     background-color: #1f2937;
     align-items: center;
-    border: 2px solid red;
     justify-content: space-between;
+    padding: 0 16px;
 }
 
 .header-logo {
@@ -32,7 +44,6 @@ body {
     display: flex;
     gap: 16px;
     background-color: #1f2937;
-    border: 2px solid red;
     justify-content: space-evenly;
 }
 
@@ -40,14 +51,12 @@ body {
     display: flex;
     flex-direction: column;
     width: 25%;
-    border: 2px solid red;
 }
 
 .hero-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    border: 2px solid red;
 }
 
 .hero-subtext {
@@ -82,33 +91,52 @@ body {
 
 .container {
     display: flex;
-    gap: 16px;
+    justify-content: center;
+    gap: 32px;
 }
 
 .child {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 150px;
 }
 
 .image-box {
     width: 150px;
     height: 150px;
-    border: 2px solid #3882f6;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.child p {
+    font-size: 16px;
+    color: #1f2937;
+}
+
+.quote-banner {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
 }
 
 .quote {
-    background-color: #e5e7eb;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    font-weight: 300;
-    color: #1f2937
+    font-weight: 200;
+    color: #1f2937;
 }
 
 .quote-author {
-
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 500;
 }
 
 .sign-up-banner {
@@ -120,8 +148,7 @@ body {
 
 .footer {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center;    
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: small;
