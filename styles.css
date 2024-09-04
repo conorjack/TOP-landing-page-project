@@ -3,10 +3,9 @@ html {
 }
 
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-html,
 body {
     min-height: 100%;
     display: flex;
@@ -19,14 +18,17 @@ body {
     font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 .header {
     display:flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10%;
     background-color: #1f2937;
     align-items: center;
     justify-content: space-between;
-    padding: 0;
 }
 
 .header-logo {
@@ -47,25 +49,27 @@ body {
 
 .hero-banner {
     display: flex;
+    width: 100%;
+    box-sizing: border-box;
     justify-content: center;
+    align-items: center;
     background-color: #1f2937;
-    padding: 0 10%;
+    padding: 58px 10%;
+    gap: 48px;
 }
 
-.banner-content {
+/* .banner-content {
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 32px 0;
     gap: 16px;
-}
+} */
 
 .banner-text {
     display: flex;
     flex-direction: column;
     width: 500px;
     gap: 16px;
-    height: 100%;
 }
 
 .hero-text {
@@ -92,18 +96,19 @@ body {
 }
 
 .hero-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    align-self: stretch;
+    align-content: center;
+    text-align: center;
     background-color: #5e6165;
+    color: white;
     width: 500px;
-    height: 100%;
     margin: 0;
 }
 
-.hero-image div {
+/* .hero-image div {
     color:#F9FAF8;
-}
+    height: 100%;
+} */
 
 .random-info {
     text-align: center;
