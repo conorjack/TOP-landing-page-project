@@ -3,7 +3,7 @@ html {
 }
 
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 html,
@@ -15,10 +15,6 @@ body {
     font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    height: 100vh;
 }
 
 .header {
@@ -26,7 +22,7 @@ body {
     background-color: #1f2937;
     align-items: center;
     justify-content: space-between;
-    padding: 0 16px;
+    padding: 0 20%;
 }
 
 .header-logo {
@@ -47,15 +43,17 @@ body {
 
 .hero-banner {
     display: flex;
+    flex: auto;
     gap: 16px;
     background-color: #1f2937;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 20%;
 }
 
 .banner-text {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 50%;
 }
 
 .hero-text {
@@ -77,11 +75,12 @@ body {
 .hero-image {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #929191;
+    width: 50%;
 }
 
 .hero-image div {
-    padding: 25px;
 }
 
 .random-info {
@@ -124,16 +123,19 @@ body {
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    padding: 36px;
 }
 
 .quote {
-    max-width: 700px;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
+    gap: 16px;
+    align-items: flex-end;
 }
 
 .quote-text {
-    font-size: 12px;
+    font-size: 36px;
     font-style: italic;
     font-weight: 200;
     color: #1f2937;
@@ -141,8 +143,8 @@ body {
 
 .quote-author {
     display: flex;
-    justify-content: flex-end;
     font-weight: 500;
+    padding-right: 48px;
 }
 
 .sign-up-banner {
