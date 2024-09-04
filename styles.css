@@ -22,7 +22,7 @@ body {
     background-color: #1f2937;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20%;
+    padding: 0 10%;
 }
 
 .header-logo {
@@ -43,44 +43,63 @@ body {
 
 .hero-banner {
     display: flex;
-    flex: auto;
-    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: #1f2937;
-    justify-content: space-between;
-    padding: 0 20%;
+    padding: 0 10%;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    gap: 16px;
 }
 
 .banner-text {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 500px;
+    gap: 16px;
+    height: 100%;
 }
 
 .hero-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
 }
 
 .hero-subtext {
     color: #e5e7eb;
     font-size: 18px;
+    margin: 0;
+    font-weight: 300;
 }
 
 .sign-up {
     background-color: #3882f6;
     color: #e5e5e5;
+    margin: 0;
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .hero-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #929191;
-    width: 50%;
+    background-color: #5e6165;
+    width: 500px;
+    height: 100%;
+    margin: 0;
 }
 
 .hero-image div {
+    color:#F9FAF8;
 }
 
 .random-info {
