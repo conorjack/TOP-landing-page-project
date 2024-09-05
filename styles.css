@@ -67,13 +67,6 @@ ul .sign-up {
     flex-wrap: wrap;
 }
 
-/* .banner-content {
-    display: flex;
-    align-items: center;
-    padding: 32px 0;
-    gap: 16px;
-} */
-
 .banner-text {
     display: flex;
     flex-direction: column;
@@ -104,6 +97,7 @@ ul .sign-up {
     padding: 10px;
     border-radius: 5px;
     border-style: none;
+    font-size: 16px;
 }
 
 .hero-image img {
@@ -115,11 +109,6 @@ ul .sign-up {
     margin: 0;
     border-radius: 20px;
 }
-
-/* .hero-image div {
-    color:#F9FAF8;
-    height: 100%;
-} */
 
 .random-info {
     text-align: center;
