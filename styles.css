@@ -64,6 +64,7 @@ ul .sign-up {
     background-color: #1f2937;
     padding: 58px 10%;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 /* .banner-content {
@@ -77,6 +78,7 @@ ul .sign-up {
     display: flex;
     flex-direction: column;
     width: 500px;
+    min-width: 250px;
     gap: 16px;
 }
 
@@ -135,6 +137,7 @@ ul .sign-up {
 .container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
