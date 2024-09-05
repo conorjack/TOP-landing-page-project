@@ -40,6 +40,14 @@ body {
     list-style: none;
     display: flex;
     gap: 16px;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+ul .sign-up {
+    max-width: 75px;
 }
 
 .nav {
@@ -96,13 +104,12 @@ body {
     border-style: none;
 }
 
-.hero-image {
-    align-self: stretch;
+.hero-image img {
+    display: flex;
     align-content: center;
-    text-align: center;
     background-color: #5e6165;
     color: white;
-    width: 500px;
+    max-width: 500px;
     margin: 0;
 }
 
@@ -154,6 +161,7 @@ body {
     justify-content: center;
     width: 100%;
     padding: 36px;
+    box-sizing: border-box;
 }
 
 .quote {
